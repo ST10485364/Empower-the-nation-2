@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empowering the Nation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="common.js" defer></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <section id="six-month">
+      <h2>Six-Month Courses</h2>
+      <ul>
+        <li><a href="course-detail.html?course=FirstAid">First Aid (R1500)</a></li>
+        <li><a href="course-detail.html?course=Sewing">Sewing (R1500)</a></li>
+        <li><a href="course-detail.html?course=Landscaping">Landscaping (R1500)</a></li>
+        <li><a href="course-detail.html?course=LifeSkills">Life Skills (R1500)</a></li>
+      </ul>
+    </section>
+    <section id="six-week">
+      <h2>Six-Week Courses</h2>
+      <ul>
+        <li><a href="course-detail.html?course=ChildMinding">Child Minding (R750)</a></li>
+        <li><a href="course-detail.html?course=Cooking">Cooking (R750)</a></li>
+        <li><a href="course-detail.html?course=GardenMaintenance">Garden Maintenance (R750)</a></li>
+      </ul>
+    </section>
+  </main>
+  <button onclick="goBack()">Back</button>
+  <footer>
+    &copy; 2025 Empowering the Nation
+  </footer>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
